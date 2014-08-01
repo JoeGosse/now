@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Marie's CSS */
+
+/** { outline: 1px solid black; }*/
+
+#nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 18px;
+	padding-bottom: 15px;
+	padding-right:70px;
+	min-width: 950px;
+	background: white;
+	z-index: 2;
+}
+
+#bike {
+	width: 30%;
+}
+
+#logo-small {
+	float: left;
+	margin-left: 70px;
+}
+
+#nav-elements {
+	padding-top: 15px;
+	float: right;
+	text-align: right;
+}
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 125px;
+	font-weight: 700;
+	color: white;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 75px;
+	font-weight: 400;
+	color: white;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 53px;
+	font-weight: 700;
+	display: inline;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#main-area {
+	clear: both;
+	margin-top: 90px;
+	min-width: 950px;
+}
+
+#france {
+	width: 100%;
+	min-width: 1250px;
+}
+
+#center-logo {
+	z-index:1;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	min-width: 665px;
+}
+
+.space {
+	height: 600px;
+}
+
+#about-space {
+	height: 530px;
+}
+
+#info {
+	width: 95%;
+	background: black;
+	opacity: 0.6;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#shop {
+	margin-top: -80px;
+	padding-bottom: 80px;
+	display: block;
+}
+
+#rides {
+	margin-top: -80px;
+	padding-bottom: 80px;
+	display: block;
+}
+
+#menu {
+	margin-top: -80px;
+	padding-bottom: 80px;
+	display: block;
+}
+
+#about {
+	margin-top: -80px;
+	padding-bottom: 80px;
+	display: block;
+}
+
+#center-logo li {
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+}
+
+#background {
+	position: fixed;
+	top: 80px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	background: #f2f2f2;
+	left:0;
+	right:0;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	min-width: 950px;
+	border-top: 1px solid;
+	border-color: #dcdcdc;
+	z-index: 2;
+}
+
+#footer li {
+	font-size: 13px;
+}
+
+#footer_right {
+	float:right;
+	margin-right: 20px;
+}
