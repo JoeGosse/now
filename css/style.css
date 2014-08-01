@@ -54,8 +54,7 @@ section {
 
 section#content {
 	width: 100%;
-	overflow: hidden;
-	height: 3000px;
+
 	position: relative;
 	z-index: 0;
 }
@@ -79,9 +78,9 @@ h2 {
 #center-logo {
 	z-index:1;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
-	min-width: 665px;
+	min-width: 600px;
 }
 
 .space {
@@ -148,7 +147,7 @@ header {
 
 #blob-0 {
 	width: 100%;
-	min-width: 1250px;
+	min-width: 600px;
 }
 
 #blob-1,
@@ -159,11 +158,12 @@ header {
 #blob-6,
 #blob-7,
 #blob-8,
-#blob-9 {
+#blob-9,
+#blob-a {
 	position: absolute;
 	display: none;
 	width: 100%;
-	min-width: 1250px;
+	min-width: 600px;
 	z-index: 0;
 }
 
@@ -172,8 +172,7 @@ header {
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 3000px;
-	overflow: hidden;
+
 }
 
 .force-show {
