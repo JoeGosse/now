@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#part-1,
+#part-2,
+#part-3,
+#part-4,
+#part-5,
+#part-6,
+#part-7,
+#part-8,
+#part-9 {
+	width: 800px;
+	min-width: 400px;
+	position: relative;
+	top: -300px;
+	z-index: 1;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 110px;
+	font-weight: 700;
+	color: white;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color: white;
+}
+
+
+
+#center-logo {
+	z-index:1;
+	position: relative;
+	top: -300px;
+	min-width: 600px;
+}
+
+.space {
+	height: 600px;
+}
+
+h3 {
+	font-family: 'Open Sans', Arial;
+	font-weight: 600;
+	font-size: 36px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.6);
+	color: white;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 28px;
+	line-height: 130%;
+	text-shadow: 2px 2px 8px black;
+	color: white;
+}
+
+
+#blob-0 {
+	width: 100%;
+	min-width: 600px;
+}
+
+#blob-1,
+#blob-2,
+#blob-3,
+#blob-4,
+#blob-5,
+#blob-6,
+#blob-7,
+#blob-8,
+#blob-9{
+	position: relative;
+	display: block;
+	width: 100%;
+	min-width: 600px;
+	z-index: 0;
+}
+
+.force-show {
+	display: block !important;
+}
+
